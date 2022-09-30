@@ -3,5 +3,5 @@
 
 void _puts_recursion(char *string){
 
-	printf("%s", string);
+	printf("%s\n", string);
 }
