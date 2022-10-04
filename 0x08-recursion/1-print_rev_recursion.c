@@ -1,9 +1,9 @@
 #include "main.h"
-
 /**
-* _print_rev_recursion - address of function
-* *s: points us to the address of the first memory
-* s: initial memory location
+* _print_rev_recursion - prints string in reverse
+* @char *s: points us to the address of the first memory
+* 
+* Return: void
 */
 void _print_rev_recursion(char *s)
 {
