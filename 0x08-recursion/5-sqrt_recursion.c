@@ -22,9 +22,9 @@ int square(int n, int y)
 */
 int _sqrt_recursion(int n)
 {
-	if ( n < 0)
-		return ( -1 );
-	if ( n < 2)
+	if (n < 0)
+		return (-1);
+	if (n < 2)
 		return (n);
-	return (square (n, 2));
+	return (square(n, 2));
 }
