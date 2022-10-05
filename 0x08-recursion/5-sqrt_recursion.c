@@ -6,9 +6,9 @@
 * Return: square root of number
 */
 int square(int n, int y)
-
 {
 	int result = y * y;
+
 	if (result == n)
 		return (y);
 	if (result > n)
@@ -22,7 +22,6 @@ int square(int n, int y)
 * Return: square root of number
 */
 int _sqrt_recursion(int n)
-
 {
 	if (n < 0)
 		return (-1);
