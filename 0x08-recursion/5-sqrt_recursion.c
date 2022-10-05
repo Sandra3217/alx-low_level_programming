@@ -13,7 +13,6 @@ int square(int n, int y)
 	if (result > n)
 		return (-1);
 	return (square(n, y + 1));
-
 }
 
 /**
@@ -28,5 +27,4 @@ int _sqrt_recursion(int n)
 	if ( n < 2)
 		return (n);
 	return (square (n, 2));
-
 }
